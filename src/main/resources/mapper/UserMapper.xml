@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ttwb.mobile.OfficialWebsite.mapper.UserMapper">
+  <resultMap id="BaseResultMap" type="com.ttwb.mobile.OfficialWebsite.entity.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="userId" jdbcType="INTEGER" property="userid" />
+    <result column="userFrom" jdbcType="INTEGER" property="userfrom" />
+    <result column="openId" jdbcType="VARCHAR" property="openid" />
+    <result column="nickName" jdbcType="VARCHAR" property="nickname" />
+    <result column="headImgUrl" jdbcType="VARCHAR" property="headimgurl" />
+    <result column="userName" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="fullName" jdbcType="VARCHAR" property="fullname" />
+    <result column="idCard" jdbcType="VARCHAR" property="idcard" />
+    <result column="sex" jdbcType="INTEGER" property="sex" />
+    <result column="wxNum" jdbcType="VARCHAR" property="wxnum" />
+    <result column="wxERMImg" jdbcType="VARCHAR" property="wxermimg" />
+    <result column="skERMImg" jdbcType="VARCHAR" property="skermimg" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="created" jdbcType="TIMESTAMP" property="created" />
+    <result column="updated" jdbcType="TIMESTAMP" property="updated" />
+    <result column="hhrEndTime" jdbcType="TIMESTAMP" property="hhrendtime" />
+    <result column="yyjTime" jdbcType="TIMESTAMP" property="yyjtime" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="userScore" jdbcType="INTEGER" property="userscore" />
+    <result column="balance" jdbcType="DOUBLE" property="balance" />
+    <result column="parentUserId" jdbcType="INTEGER" property="parentuserid" />
+    <result column="parentUserLQ" jdbcType="INTEGER" property="parentuserlq" />
+    <result column="yyj" jdbcType="INTEGER" property="yyj" />
+    <result column="doTaskNum" jdbcType="INTEGER" property="dotasknum" />
+    <result column="doTaskTodayNum" jdbcType="INTEGER" property="dotasktodaynum" />
+    <result column="doTaskMoney" jdbcType="DOUBLE" property="dotaskmoney" />
+    <result column="taskEveryDay" jdbcType="INTEGER" property="taskeveryday" />
+    <result column="other1" jdbcType="VARCHAR" property="other1" />
+    <result column="other2" jdbcType="VARCHAR" property="other2" />
+    <result column="other3" jdbcType="INTEGER" property="other3" />
+    <result column="other4" jdbcType="INTEGER" property="other4" />
+    <result column="parentUserIdList" jdbcType="LONGVARCHAR" property="parentuseridlist" />
+  </resultMap>
+</mapper>
